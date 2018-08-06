@@ -1,0 +1,115 @@
+title: The Official LimboSurvival Modpack
+id: limbosurvival
+mcVersion: 1.12.2
+forge: 2746
+authors: 
+    - canitzp
+    - Ristelle
+version: 1.0.0
+sourceDir: src
+root:
+    validMcVersions: 
+        - 1.12.2
+        - 1.12.1
+    curseOptionalDependencies: false
+    curseReleaseTypes: [beta, release]
+    provider: CURSE
+    entries:
+    - actually-additions
+    - better-placement
+    - bibliocraft
+    - botania
+    - chicken-chunks-1-8
+    - chisel
+    - chisels-bits
+    - exchangers
+    - extra-bit-manipulation
+    - extra-utilities
+    - flat-colored-blocks
+    - forestry
+    - ice-and-fire-dragons
+    - immersive-engineering
+    - immersive-railroading
+    - industrial-craft
+    - jei
+    - laggoggles
+    - lingering-loot
+    - magic-arsenal
+    - metalworks
+    - minecolonies
+      curseReleaseTypes: [alpha, beta, release]
+    - mob-grinding-utils
+    - more-dyeable-armors
+    - opencomputers
+    - quacklib
+    - quark
+    - prodigy-tech
+    - redstone-flux
+    - resource-loader
+    - retrocomputers
+    - rswires
+    - rtfm
+    - sampler
+    - shadowfacts-forgelin
+    - stuff-a-sock-in-it
+    - angry-pixel-the-betweenlands-mod
+    - thermal-dynamics
+    - thermalexpansion
+    - thermal-foundation
+    - track-api
+    - tumat
+    - uppers
+    - worse-barrels
+    - zetta-industries
+    - provider: DIRECT
+      entries:
+      -   id: Computronics
+          url: "https://files.vexatos.com/Computronics/dev/Computronics-1.12.2-1.6.6.183-ssml2.jar"
+      -   id: Conventional
+          url: "https://files.vexatos.com/Conventional/dev/Conventional-1.12.1-0.0.18.jar"
+      -   id: ConventionalChat
+          url: "https://files.vexatos.com/Conventional/dev/ConventionalChat-1.12.1-0.0.5.jar"
+      -   id: FCL
+          url: "http://fexcraft.net/temp/fvtm_2.7.b31_pre/Fexcraft Common Library-XII.42-lc_pre.jar"
+      -   id: FVTM
+          url: "http://fexcraft.net/temp/fvtm_2.7.b31_pre/FVTM-2.7.b30-lc_pre-1.12.x.jar"
+    - feature:
+        selected: true
+        recommendation: starred
+      entries:
+        -   id: FoamFix (Anarchy)
+            provider: DIRECT
+            url: https://asie.pl/files/mods/FoamFix/foamfix-0.9.9.1-1.12.2-anarchy.jar
+            description: "Foamfix!"
+        
+    - side: CLIENT
+      entries:
+        - extendpolyphonylimit
+        - no-recipe-book
+        - feature:
+            recommendation: starred
+            selected: true
+          entries:
+            -   id: betterfps
+                description: "For more FPS, doesn't work for everyone"
+            -   id: toast-control
+                description: "Removes Minecraft annoying Toasts."
+            -   id: journeymap
+                description: "Minimap"
+            -   id: nonausea
+                description: "Removes the nausea effect"
+        - feature:
+            selected: false
+          entries:
+            -   id: worldeditcui-forge-edition-2
+                description: "If you don't know what this is, I suggest not ticking it."
+    - side: SERVER
+      entries:
+        - btfu-continuous-rsync-incremental-backup
+        -   id: MatterLink
+            provider: DIRECT
+            url: "https://ci.elytradev.com/job/elytra/job/MatterLink/job/master/lastSuccessfulBuild/artifact/1.12.2/build/libs/MatterLink-1.12.2-1.6.3-153.jar"
+        - mtqfix
+        - mybukkit-commands
+        - unloader
+        - worldedit
