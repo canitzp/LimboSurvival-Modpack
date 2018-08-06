@@ -36,7 +36,7 @@ root:
     - lingering-loot
     - magic-arsenal
     - metalworks
-    - minecolonies
+    - id: minecolonies
       curseReleaseTypes: [alpha, beta, release]
     - mob-grinding-utils
     - more-dyeable-armors

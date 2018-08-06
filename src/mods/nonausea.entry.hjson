@@ -1,0 +1,14 @@
+{ 
+  "provider": "CURSE",
+  "id": "nonausea",
+  "description": "Removes the nausea effect",
+  "feature": { 
+    "selected": true,
+    "recommendation": "starred"
+  },
+  "side": "CLIENT",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ]
+}

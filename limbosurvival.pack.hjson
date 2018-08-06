@@ -1,0 +1,11 @@
+{ 
+	"id": "limbosurvival",
+	"title": "The Official LimboSurvival Modpack",
+	"version": "1.0.0",
+	"authors": [ 
+		"canitzp",
+		"Ristelle"
+	],
+	"mcVersion": "1.12.2",
+	"forge": "2746"
+}
