@@ -25,7 +25,7 @@
   "sourceDir": "src",
   "features": [ 
     { "entries": [ "betterfps" ], "properties": { "name": "BetterFps", "selected": true, "description": "For more FPS, doesn't work for everyone", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
-    { "entries": [ "FoamFix (Anarchy)" ], "properties": { "name": "FoamFix (Anarchy)", "selected": true, "description": "Foamfix!", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
+    { "entries": [ "foamfix-for-minecraft" ], "properties": { "name": "FoamFix for Minecraft", "selected": true, "description": "Foamfix!", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
     { "entries": [ "journeymap" ], "properties": { "name": "JourneyMap", "selected": true, "description": "Minimap", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
     { "entries": [ "nonausea" ], "properties": { "name": "NoNausea", "selected": true, "description": "Removes the nausea effect", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },
     { "entries": [ "toast-control", "placebo" ], "properties": { "name": "Toast Control", "selected": true, "description": "Removes Minecraft annoying Toasts.", "recommendation": "starred" }, "files": { "include": [ ], "exclude": [ ] } },

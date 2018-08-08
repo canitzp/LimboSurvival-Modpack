@@ -1,0 +1,12 @@
+{ 
+  "provider": "JENKINS",
+  "id": "elytra/MatterLink/master",
+  "name": "MatterLink",
+  "side": "SERVER",
+  "version": "1.12.2",
+  "validMcVersions": [ 
+    "1.12.1",
+    "1.12.2"
+  ],
+  "jenkinsUrl": "https://ci.elytradev.com"
+}

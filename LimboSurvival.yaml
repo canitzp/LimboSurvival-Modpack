@@ -16,6 +16,8 @@ root:
     provider: CURSE
     entries:
     - actually-additions
+    -   id: applied-energistics-2
+        curseReleaseTypes: [alpha, beta, release]
     - better-placement
     - bibliocraft
     - botania
@@ -25,8 +27,11 @@ root:
     - exchangers
     - extra-bit-manipulation
     - extra-utilities
+    - fexcraft-common-library
+    - fexs-vehicle-mod
     - flat-colored-blocks
     - forestry
+    - fsmm
     - ice-and-fire-dragons
     - immersive-engineering
     - immersive-railroading
@@ -51,6 +56,7 @@ root:
     - rtfm
     - sampler
     - shadowfacts-forgelin
+    - states
     - stuff-a-sock-in-it
     - angry-pixel-the-betweenlands-mod
     - thermal-dynamics
@@ -65,23 +71,13 @@ root:
       entries:
       -   id: Computronics
           url: "https://files.vexatos.com/Computronics/dev/Computronics-1.12.2-1.6.6.183-ssml2.jar"
-      -   id: Conventional
-          url: "https://files.vexatos.com/Conventional/dev/Conventional-1.12.1-0.0.18.jar"
-      -   id: ConventionalChat
-          url: "https://files.vexatos.com/Conventional/dev/ConventionalChat-1.12.1-0.0.5.jar"
-      -   id: FCL
-          url: "http://fexcraft.net/temp/fvtm_2.7.b31_pre/Fexcraft Common Library-XII.42-lc_pre.jar"
-      -   id: FVTM
-          url: "http://fexcraft.net/temp/fvtm_2.7.b31_pre/FVTM-2.7.b30-lc_pre-1.12.x.jar"
     - feature:
         selected: true
         recommendation: starred
       entries:
-        -   id: FoamFix (Anarchy)
-            provider: DIRECT
-            url: https://asie.pl/files/mods/FoamFix/foamfix-0.9.9.1-1.12.2-anarchy.jar
+        -   id: foamfix-for-minecraft
+            version: "Anarchy"
             description: "Foamfix!"
-        
     - side: CLIENT
       entries:
         - extendpolyphonylimit
@@ -106,9 +102,11 @@ root:
     - side: SERVER
       entries:
         - btfu-continuous-rsync-incremental-backup
-        -   id: MatterLink
-            provider: DIRECT
-            url: "https://ci.elytradev.com/job/elytra/job/MatterLink/job/master/lastSuccessfulBuild/artifact/1.12.2/build/libs/MatterLink-1.12.2-1.6.3-153.jar"
+        -   provider: JENKINS
+            jenkinsUrl: https://ci.elytradev.com
+            id: elytra/MatterLink/master
+            name: MatterLink
+            version: "1.12.2"
         - mtqfix
         - mybukkit-commands
         - unloader
